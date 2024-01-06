@@ -160,3 +160,14 @@ $(window).on('load', function() {
 
 })(jQuery);
 
+
+const phoneDisplayer = document.getElementById("phone-displayer")
+let phoneDisplayerButton = phoneDisplayer.getElementsByClassName("btn")[0]
+
+phoneDisplayerButton.addEventListener("click", ()=>{
+	let phoneNumber = document.createElement("p")
+	phoneDisplayerButton.remove()
+	phoneDisplayer.appendChild(phoneNumber)
+	phoneNumber.innerText = "669 "+ "609 " + (160 + 1)
+})
+
