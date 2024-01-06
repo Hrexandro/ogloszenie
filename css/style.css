@@ -398,11 +398,7 @@ ol {
 	text-align: center;
 }
 
-@media (max-width: 576px) {
-	.main__menu .nav__menu {
-		display: none;
-	}
-}
+
 
 .main__menu .nav__menu>li {
 	display: inline-block;
@@ -564,6 +560,16 @@ ol {
 .slicknav_nav .slicknav_item a {
 	border-bottom: none;
 }
+
+@media (max-width: 576px) {
+	.main__menu .nav__menu>li>a {
+
+		font-size: 12px;
+
+	}
+}
+
+
 
 /*---------------------
    Hero section
