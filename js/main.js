@@ -168,6 +168,6 @@ phoneDisplayerButton.addEventListener("click", ()=>{
 	let phoneNumber = document.createElement("p")
 	phoneDisplayerButton.remove()
 	phoneDisplayer.appendChild(phoneNumber)
-	phoneNumber.innerText = "669 "+ "609 " + (160 + 1)
+	phoneNumber.innerText = "NIEAKTUALNE"
 })
 
